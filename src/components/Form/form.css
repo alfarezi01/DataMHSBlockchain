@@ -1,15 +1,30 @@
 body {
     background-color: #fff;
     font-family: Arial, sans-serif;
+    
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("../../assets/Group1.png") center/cover no-repeat fixed;
+    height: 100vh;
+    position: relative;
 }
 
 form {
     width: 1000px;
     margin: 0 auto;
-    background-color: #fff;
     padding: 60px;
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
+    
+}
+
+.gambar {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 h1 {
@@ -17,6 +32,8 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #333;
+    font-family: Poppins;
+    color: #14487A;
 }
 
 label {
@@ -32,9 +49,9 @@ select,
 textarea,
 input[type="tel"] {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
     font-size: 16px;
     color: #333;

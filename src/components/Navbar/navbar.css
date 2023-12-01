@@ -10,6 +10,7 @@
    align-items: center;
    justify-content: center;
    color: rgb(0, 0, 0);
+   font-family: Poppins;
 }
 .nav__name img{ padding: 2rem;}
 .nav__networkSelector{

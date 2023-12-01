@@ -31,7 +31,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="nav__name">
         <img src={healthReport} alt="" width="40" height="40" />
-        <h2>Data Mahasiswa PENS </h2>
+        <h2>AbSens </h2>
       </div>
 
 
